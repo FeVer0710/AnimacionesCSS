@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;  
+}
+
+h2, a, button{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.separador::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/divider.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px auto 0 auto;
+}
+
+.fondo-card{
+    background-color: rgb(7, 32, 33);
+}
